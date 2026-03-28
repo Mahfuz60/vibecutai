@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF0A090F</color>
+    <color name="ic_launcher_background">#FF1A0050</color>
+    <color name="primary">#FF9D5CFF</color>
+    <string name="app_name">VibeCut AI</string>
+    <string name="app_tagline">AI-Powered Video Editor</string>
+    <string name="permission_audio">Microphone access is needed to record audio</string>
+    <string name="permission_camera">Camera access is needed to record videos</string>
+    <string name="permission_storage">Storage access is needed to import your videos</string>
+    <style name="Theme.VibeCutAI" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Theme.VibeCutAI.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.VibeCutAI</item>
+    </style>
+</resources>

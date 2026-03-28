@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.vibecut.ai.test.app-mergeDebugAndroidTestResources-3:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\8.10.2\\transforms\\8fe8b8c4286dcf373df9f9a8f070dc49\\transformed\\core-1.6.1\\res\\values-v28\\values.xml",
+                    "from": {
+                        "startLines": "4,13",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,625",
+                        "endLines": "12,21",
+                        "endColumns": "8,8",
+                        "endOffsets": "624,1101"
+                    },
+                    "to": {
+                        "startLines": "2,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,538",
+                        "endLines": "10,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "533,1014"
+                    }
+                }
+            ]
+        }
+    ]
+}

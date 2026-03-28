@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Match VibeBackground (#0A090F) from Color.kt -->
+    <color name="background">#FF0A090F</color>
+    <color name="primary">#FF9D5CFF</color>
+    <color name="ic_launcher_background">#FF1A0050</color>
+</resources>

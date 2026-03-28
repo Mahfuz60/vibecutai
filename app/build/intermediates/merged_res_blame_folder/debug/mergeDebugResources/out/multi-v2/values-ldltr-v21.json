@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.vibecut.ai.app-mergeDebugResources-87:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\8.10.2\\transforms\\09f588a751575044b92b9d0d8f3b71ed\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+-keep,allowobfuscation,allowshrinking class com.vibecut.ai.ui.screens.auth.AuthViewModel
+-keep,allowobfuscation,allowshrinking class com.vibecut.ai.ui.screens.auth.AuthViewModel
+-keep,allowobfuscation,allowshrinking class com.vibecut.ai.ui.screens.editor.VideoEditorViewModel
+-keep,allowobfuscation,allowshrinking class com.vibecut.ai.ui.screens.editor.VideoEditorViewModel
+-keep,allowobfuscation,allowshrinking class com.vibecut.ai.ui.screens.home.HomeViewModel

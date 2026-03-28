@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.vibecut.ai.app-mergeDebugResources-87:/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\admin\\.gradle\\caches\\8.10.2\\transforms\\09f588a751575044b92b9d0d8f3b71ed\\transformed\\appcompat-1.6.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}

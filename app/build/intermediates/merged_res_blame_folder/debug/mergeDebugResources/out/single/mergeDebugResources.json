@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-mdpi_ic_launcher_background.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-mdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-hdpi_ic_launcher_background.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-hdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.vibecut.ai.app-main-91:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xxxhdpi_ic_launcher_background.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xxxhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-anydpi-v26_ic_launcher_foreground.xml.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-anydpi-v26/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xhdpi_ic_launcher_background.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xhdpi/ic_launcher_background.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/xml_data_extraction_rules.xml.flat",
+        "source": "com.vibecut.ai.app-main-91:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.vibecut.ai.app-main-91:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.vibecut.ai.app-debug-89:/xml_backup_rules.xml.flat",
+        "source": "com.vibecut.ai.app-main-91:/xml/backup_rules.xml"
+    }
+]

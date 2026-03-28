@@ -1,0 +1,19 @@
+1. Launch with a 'Festival Special' update for a major Indian festival (Holi, Diwali, Eid) — festival template content drives organic downloads
+
+2. Partner with 5–10 micro-influencers (10K–100K followers) on Instagram/TikTok — offer them 6 months free Premium in exchange for a 30-second demo reel
+
+3. Submit to Product Hunt on a Tuesday/Wednesday — target #1 Product of the Day in the 'Video' category
+
+4. ASO Hack: Update your short description every 2 weeks with trending keywords. Monitor ranking with AppFollow or Sensor Tower
+
+5. Use Firebase Remote Config to A/B test your paywall — test '$4.99/mo vs $3.99/mo' and 'trial vs no trial' to maximize conversion
+
+6. Set up a Facebook/Instagram ad campaign targeting fans of InShot, CapCut, and VN with a 15-second demo of the AI Magic Edit feature
+
+7. Offer 'Refer a Friend' bonus: 10 extra AI credits for each friend who signs up — this drives viral loops
+
+8. Submit to Google Play's 'Editor's Choice' program once you hit 100K installs and 4.5+ rating
+
+9. Reply to every Play Store review in the first 3 months — Google's algorithm rewards apps with high review response rates
+
+10. Create a YouTube channel 'VibeCut AI Tutorials' and post weekly tutorial videos — this drives long-tail organic search traffic

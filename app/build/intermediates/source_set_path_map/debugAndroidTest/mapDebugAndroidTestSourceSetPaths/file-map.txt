@@ -1,0 +1,6 @@
+com.vibecut.ai.test.app-core-1.6.1-0 C:\Users\admin\.gradle\caches\8.10.2\transforms\8fe8b8c4286dcf373df9f9a8f070dc49\transformed\core-1.6.1\res
+com.vibecut.ai.test.app-tracing-1.2.0-1 C:\Users\admin\.gradle\caches\8.10.2\transforms\f87009991bdf0efefa31b007f731b81d\transformed\tracing-1.2.0\res
+com.vibecut.ai.test.app-androidTest-2 D:\App-Development\VibeCutAI-app\VibeCutAI\app\build\generated\res\resValues\androidTest\debug
+com.vibecut.ai.test.app-mergeDebugAndroidTestResources-3 D:\App-Development\VibeCutAI-app\VibeCutAI\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.vibecut.ai.test.app-mergeDebugAndroidTestResources-4 D:\App-Development\VibeCutAI-app\VibeCutAI\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.vibecut.ai.test.app-debugAndroidTest-5 D:\App-Development\VibeCutAI-app\VibeCutAI\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
