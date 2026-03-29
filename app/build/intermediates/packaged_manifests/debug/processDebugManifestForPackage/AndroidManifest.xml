@@ -78,6 +78,7 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.VibeCutAI" >
 
         <!-- Splash Screen / Main Entry -->

@@ -405,6 +405,8 @@ public final class DaggerVibeCutApp_HiltComponents_SingletonC {
   }
 
   private static final class ViewModelCImpl extends VibeCutApp_HiltComponents.ViewModelC {
+    private final SavedStateHandle savedStateHandle;
+
     private final SingletonCImpl singletonCImpl;
 
     private final ActivityRetainedCImpl activityRetainedCImpl;
@@ -422,7 +424,7 @@ public final class DaggerVibeCutApp_HiltComponents_SingletonC {
         ViewModelLifecycle viewModelLifecycleParam) {
       this.singletonCImpl = singletonCImpl;
       this.activityRetainedCImpl = activityRetainedCImpl;
-
+      this.savedStateHandle = savedStateHandleParam;
       initialize(savedStateHandleParam, viewModelLifecycleParam);
 
     }
@@ -473,7 +475,7 @@ public final class DaggerVibeCutApp_HiltComponents_SingletonC {
           return (T) new HomeViewModel(singletonCImpl.projectRepositoryImplProvider.get());
 
           case 2: // com.vibecut.ai.ui.screens.editor.VideoEditorViewModel 
-          return (T) new VideoEditorViewModel();
+          return (T) new VideoEditorViewModel(viewModelCImpl.savedStateHandle);
 
           default: throw new AssertionError(id);
         }

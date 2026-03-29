@@ -1,7 +1,10 @@
 package com.vibecut.ai.ui.screens.editor;
 
+import androidx.lifecycle.SavedStateHandle;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
+import dagger.internal.Provider;
+import dagger.internal.Providers;
 import dagger.internal.QualifierMetadata;
 import dagger.internal.ScopeMetadata;
 import javax.annotation.processing.Generated;
@@ -23,20 +26,28 @@ import javax.annotation.processing.Generated;
     "nullness:initialization.field.uninitialized"
 })
 public final class VideoEditorViewModel_Factory implements Factory<VideoEditorViewModel> {
+  private final Provider<SavedStateHandle> savedStateHandleProvider;
+
+  public VideoEditorViewModel_Factory(Provider<SavedStateHandle> savedStateHandleProvider) {
+    this.savedStateHandleProvider = savedStateHandleProvider;
+  }
+
   @Override
   public VideoEditorViewModel get() {
-    return newInstance();
+    return newInstance(savedStateHandleProvider.get());
   }
 
-  public static VideoEditorViewModel_Factory create() {
-    return InstanceHolder.INSTANCE;
+  public static VideoEditorViewModel_Factory create(
+      javax.inject.Provider<SavedStateHandle> savedStateHandleProvider) {
+    return new VideoEditorViewModel_Factory(Providers.asDaggerProvider(savedStateHandleProvider));
   }
 
-  public static VideoEditorViewModel newInstance() {
-    return new VideoEditorViewModel();
+  public static VideoEditorViewModel_Factory create(
+      Provider<SavedStateHandle> savedStateHandleProvider) {
+    return new VideoEditorViewModel_Factory(savedStateHandleProvider);
   }
 
-  private static final class InstanceHolder {
-    static final VideoEditorViewModel_Factory INSTANCE = new VideoEditorViewModel_Factory();
+  public static VideoEditorViewModel newInstance(SavedStateHandle savedStateHandle) {
+    return new VideoEditorViewModel(savedStateHandle);
   }
 }

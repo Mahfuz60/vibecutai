@@ -20,8 +20,10 @@ class BillingManager @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
     companion object {
-        const val PRODUCT_PREMIUM_MONTHLY = "vibecut_premium_monthly"
-        const val PRODUCT_PREMIUM_YEARLY = "vibecut_premium_yearly"
+        // Play Billing one-time products (tip jar / donation)
+        const val PRODUCT_DONATION_SMALL = "vibecut_support_small"
+        const val PRODUCT_DONATION_MEDIUM = "vibecut_support_medium"
+        const val PRODUCT_DONATION_LARGE = "vibecut_support_large"
     }
 
     private val _isPremium = MutableStateFlow(false)
@@ -29,8 +31,9 @@ class BillingManager @Inject constructor(
 
     private val _availableProducts = MutableStateFlow(
         listOf(
-            ProductDetails(PRODUCT_PREMIUM_MONTHLY, "Monthly Premium", "Local placeholder", "$0"),
-            ProductDetails(PRODUCT_PREMIUM_YEARLY, "Yearly Premium", "Local placeholder", "$0")
+            ProductDetails(PRODUCT_DONATION_SMALL, "Support Dev • Small", "One-time support", "$3"),
+            ProductDetails(PRODUCT_DONATION_MEDIUM, "Support Dev • Medium", "One-time support", "$5"),
+            ProductDetails(PRODUCT_DONATION_LARGE, "Support Dev • Large", "One-time support", "$10")
         )
     )
     val availableProducts: StateFlow<List<ProductDetails>> = _availableProducts
@@ -39,7 +42,11 @@ class BillingManager @Inject constructor(
         _isPremium.value = false
     }
 
-    fun launchBillingFlow(activity: Activity, productDetails: ProductDetails) {
-        _isPremium.value = true
-    }
+    fun donationProducts(): List<ProductDetails> =
+        _availableProducts.value.filter {
+            it.productId == PRODUCT_DONATION_SMALL ||
+                    it.productId == PRODUCT_DONATION_MEDIUM ||
+                    it.productId == PRODUCT_DONATION_LARGE
+        }
+
 }

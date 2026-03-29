@@ -18,58 +18,51 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.view.WindowCompat
 
-// VibeCut AI Professional Color System
+// VibeCut AI Cyberpunk/Neon Professional Color System
 object VibeCutColors {
-    val Background = Color(0xFF000000)      // Pure Black
-    val Surface = Color(0xFF121212)         // Dark Grey
-    val SurfaceVariant = Color(0xFF1E1E1E)  // Lighter Dark Grey
-    val Primary = Color(0xFFBB86FC)         // Light Purple
-    val Secondary = Color(0xFF03DAC6)       // Teal
-    val Accent = Color(0xFFFF4081)          // Pink Accent
-    val OnBackground = Color(0xFFFFFFFF)
-    val OnSurface = Color(0xFFE1E1E1)
-    val Error = Color(0xFFCF6679)
+    val Background = Color(0xFF050505)      // Deep Black
+    val Surface = Color(0xFF0D1117)         // Deep Dark Blue/Grey
+    val SurfaceVariant = Color(0xFF161B22)  // Lighter Dark
     
-    // Timeline colors from reference
-    val TimelineTrack1 = Color(0xFF4A1F8A)
-    val TimelineTrack2 = Color(0xFF6A007F)
-    val TimelineTrack3 = Color(0xFF00E5FF)
+    val Primary = Color(0xFF00F0FF)         // Neon Cyan (from reference)
+    val Secondary = Color(0xFFFF003C)       // Neon Red/Pink (from reference)
+    val Accent = Color(0xFF7000FF)          // Cyber Purple
+    
+    val OnBackground = Color(0xFFE6EDF3)
+    val OnSurface = Color(0xFFC9D1D9)
+    val Error = Color(0xFFF85149)
+    
+    val NeonCyan = Color(0xFF00F0FF)
+    val NeonRed = Color(0xFFFF003C)
+    
+    // Timeline colors matching the neon aesthetic
+    val TimelineTrack1 = Color(0xFF1F6FEB)
+    val TimelineTrack2 = Color(0xFFAB7DF8)
+    val TimelineTrack3 = Color(0xFF238636)
 }
 
 val VibeCutShapes = Shapes(
-    small = RoundedCornerShape(8.dp),
-    medium = RoundedCornerShape(16.dp),
-    large = RoundedCornerShape(24.dp)
+    small = RoundedCornerShape(4.dp),
+    medium = RoundedCornerShape(12.dp),
+    large = RoundedCornerShape(20.dp)
 )
 
 val VibeCutTypography = Typography(
-    displayLarge = TextStyle(
+    displaySmall = TextStyle(
         fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Bold,
-        fontSize = 32.sp,
-        lineHeight = 40.sp,
-        letterSpacing = 0.sp
+        fontWeight = FontWeight.Black,
+        fontSize = 36.sp,
+        letterSpacing = (-1).sp
     ),
     headlineMedium = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Bold,
-        fontSize = 24.sp,
-        lineHeight = 32.sp,
-        letterSpacing = 0.sp
+        fontSize = 28.sp
     ),
     bodyLarge = TextStyle(
         fontFamily = FontFamily.Default,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
+        fontSize = 16.sp
     )
 )
 
@@ -77,7 +70,7 @@ private val DarkColorScheme = darkColorScheme(
     primary = VibeCutColors.Primary,
     onPrimary = Color.Black,
     secondary = VibeCutColors.Secondary,
-    onSecondary = Color.Black,
+    onSecondary = Color.White,
     tertiary = VibeCutColors.Accent,
     background = VibeCutColors.Background,
     onBackground = VibeCutColors.OnBackground,
@@ -96,8 +89,8 @@ fun VibeCutTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = Color.Black.toArgb()
-            window.navigationBarColor = Color.Black.toArgb()
+            window.statusBarColor = VibeCutColors.Background.toArgb()
+            window.navigationBarColor = VibeCutColors.Background.toArgb()
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = false
         }
     }
